@@ -1,0 +1,34 @@
+# Core pipeline — required.
+numpy>=1.26
+scikit-learn>=1.4
+faiss-cpu>=1.8
+networkx>=3.2
+pydantic>=2.6
+
+# API service.
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+# Agent layer.
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# Document loading (real PDF policy wordings).
+pypdf>=4.2
+
+# Document rendering — only needed to regenerate data/corpus_pdf from the text corpus.
+reportlab>=4.0
+
+# Quality embedding + reranking backends. The project runs without these using a
+# dependency-free fallback. Note that the numbers in the README were measured on the
+# *fallback*, not on these: the environment the evaluation ran in could not download
+# pretrained weights. Installing these changes the retrieval numbers, so re-run the
+# harness rather than assuming the published figures still describe your setup.
+sentence-transformers>=3.0
+
+# LLM providers are optional — the pipeline answers without any API key using the
+# extractive engine. Install only the one you use:
+#   pip install anthropic        # POLICYLENS_LLM_PROVIDER=anthropic  (default)
+#   pip install openai           # POLICYLENS_LLM_PROVIDER=openai
+#   pip install google-genai     # POLICYLENS_LLM_PROVIDER=gemini
+# Ollama needs no package: POLICYLENS_LLM_PROVIDER=ollama

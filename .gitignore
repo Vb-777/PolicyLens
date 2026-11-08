@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.eggs/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Secrets — never commit a key.
+.env
+.env.*
+!.env.example
+
+# Built index. Derived from data/corpus_pdf and rebuilt by `make index`, so it is not
+# source. Committing it would also mean committing a pickle, which is an unpleasant
+# thing to ask a reviewer to trust.
+data/index/
+
+# Model caches, if the optional sentence-transformers backend is installed.
+.cache/
+models/
+
+# Evaluation output. Timestamped runs pile up quickly; the committed report is
+# reports/EVALUATION.md, which is the one referenced from the README.
+reports/eval-*.json
+reports/eval-*.csv
+reports/eval-*.md
+reports/latest.json
+
+# OS noise
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2295 @@
+[
+  {
+    "id": "Q001",
+    "question": "Does the Aarogya Suraksha health policy cover treatment taken outside India?",
+    "reference_answer": "No. Cover under the Aarogya Suraksha policy operates only within the geographical limits of India.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#1.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "no",
+      "only within india",
+      "india"
+    ]
+  },
+  {
+    "id": "Q002",
+    "question": "What is the minimum hospitalisation duration under the Aarogya Suraksha policy?",
+    "reference_answer": "24 consecutive hours, except for listed Day Care Treatments where the minimum duration does not apply.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#2.1"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "24",
+      "twenty-four",
+      "24 hours"
+    ]
+  },
+  {
+    "id": "Q003",
+    "question": "How does the Aarogya Suraksha policy define a pre-existing disease?",
+    "reference_answer": "A condition diagnosed, or for which medical advice or treatment was recommended or received, within 48 months before the effective date of the first policy issued to the Insured Person.",
+    "kind": "factual",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#2.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "48 months",
+      "forty-eight"
+    ]
+  },
+  {
+    "id": "Q004",
+    "question": "What is the pre-hospitalisation and post-hospitalisation cover period under the Aarogya Suraksha policy?",
+    "reference_answer": "60 days of pre-hospitalisation expenses and 90 days of post-hospitalisation expenses.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#3.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "60",
+      "90",
+      "sixty",
+      "ninety"
+    ]
+  },
+  {
+    "id": "Q005",
+    "question": "What is the road ambulance limit under the Aarogya Suraksha policy?",
+    "reference_answer": "Rs. 5,000 per hospitalisation event.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#3.4"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "5,000",
+      "5000",
+      "rs. 5,000"
+    ]
+  },
+  {
+    "id": "Q006",
+    "question": "Is AYUSH treatment covered under the Aarogya Suraksha policy and up to what limit?",
+    "reference_answer": "Yes. In-patient AYUSH treatment at a recognised hospital is covered up to 25% of the Sum Insured per policy year.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#3.5"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "25%",
+      "25 percent",
+      "yes"
+    ]
+  },
+  {
+    "id": "Q007",
+    "question": "What is the initial waiting period under the Aarogya Suraksha policy?",
+    "reference_answer": "30 days from policy inception, except for accidental injury.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#4.1"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "30 days",
+      "thirty"
+    ]
+  },
+  {
+    "id": "Q008",
+    "question": "What is the pre-existing disease waiting period under the Aarogya Suraksha policy?",
+    "reference_answer": "36 months of continuous coverage from the inception of the first policy with the Company.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#4.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "36 months",
+      "thirty-six"
+    ]
+  },
+  {
+    "id": "Q009",
+    "question": "If I increase my sum insured on the Aarogya Suraksha policy, does the pre-existing disease waiting period restart?",
+    "reference_answer": "Yes. The 36-month pre-existing disease waiting period applies afresh to the enhanced portion of the Sum Insured.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#4.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "yes",
+      "afresh",
+      "enhanced portion"
+    ]
+  },
+  {
+    "id": "Q010",
+    "question": "Is cataract surgery covered immediately under the Aarogya Suraksha policy?",
+    "reference_answer": "No. Cataract falls under the specified disease waiting period of 24 months of continuous coverage.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#4.3"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "24 months",
+      "no",
+      "twenty-four"
+    ]
+  },
+  {
+    "id": "Q011",
+    "question": "What is the maternity waiting period under the Aarogya Suraksha policy?",
+    "reference_answer": "36 months of continuous coverage, and the benefit is limited to two deliveries or terminations in the Insured Person's lifetime.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#4.4"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "36 months",
+      "thirty-six",
+      "two deliveries"
+    ]
+  },
+  {
+    "id": "Q012",
+    "question": "What is the room rent sub-limit under the Aarogya Suraksha policy?",
+    "reference_answer": "1% of the Sum Insured per day for a normal room and 2% per day for ICU, with proportionate deduction if a higher room category is chosen.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#5.1"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "1%",
+      "2%",
+      "one percent",
+      "two percent"
+    ]
+  },
+  {
+    "id": "Q013",
+    "question": "What happens if I choose a hospital room above my entitlement under the Aarogya Suraksha policy?",
+    "reference_answer": "All associated medical expenses are reduced proportionately, in the ratio that the entitled room rent bears to the actual room rent incurred.",
+    "kind": "procedural",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#5.1"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "proportion",
+      "proportionate"
+    ]
+  },
+  {
+    "id": "Q014",
+    "question": "Does the Aarogya Suraksha policy have a co-payment?",
+    "reference_answer": "Yes, a 10% co-payment applies to every admissible claim where the Insured Person was aged 56 or above at first inception of the policy.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#5.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "10%",
+      "ten percent",
+      "56"
+    ]
+  },
+  {
+    "id": "Q015",
+    "question": "What is the cataract sub-limit under the Aarogya Suraksha policy?",
+    "reference_answer": "Rs. 40,000 per eye per policy year, inclusive of the intraocular lens.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#5.3"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "40,000",
+      "40000"
+    ]
+  },
+  {
+    "id": "Q016",
+    "question": "Is cosmetic surgery covered under the Aarogya Suraksha policy?",
+    "reference_answer": "No, cosmetic or plastic surgery is excluded unless medically necessary for reconstruction following an accident, burn or cancer.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#6.1"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "no",
+      "excluded",
+      "unless"
+    ]
+  },
+  {
+    "id": "Q017",
+    "question": "Is scuba diving injury covered under the Aarogya Suraksha policy?",
+    "reference_answer": "No. Treatment necessitated by professional participation in hazardous or adventure sports, including scuba diving, is excluded.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#6.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "no",
+      "excluded",
+      "hazardous"
+    ]
+  },
+  {
+    "id": "Q018",
+    "question": "Are attendant charges payable under the Aarogya Suraksha policy?",
+    "reference_answer": "No. Attendant charges are listed among non-medical items of personal comfort and convenience which are not payable.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#6.4"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "no",
+      "not payable",
+      "excluded"
+    ]
+  },
+  {
+    "id": "Q019",
+    "question": "How soon must I notify a planned hospitalisation under the Aarogya Suraksha policy?",
+    "reference_answer": "At least 48 hours before admission for planned hospitalisation, and within 24 hours of admission in an emergency.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#7.1"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "48 hours",
+      "24 hours",
+      "forty-eight"
+    ]
+  },
+  {
+    "id": "Q020",
+    "question": "Within how many days must claim documents be submitted under the Aarogya Suraksha policy?",
+    "reference_answer": "Within 30 days of the date of discharge from hospital.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#7.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "30 days",
+      "thirty"
+    ]
+  },
+  {
+    "id": "Q021",
+    "question": "How long does pre-authorisation take under the Aarogya Suraksha policy?",
+    "reference_answer": "The third party administrator responds within 4 hours of receiving a complete pre-authorisation request.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#7.3"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "4 hours",
+      "four hours"
+    ]
+  },
+  {
+    "id": "Q022",
+    "question": "What interest is payable on delayed claim settlement under the Aarogya Suraksha policy?",
+    "reference_answer": "Interest at 2% above the prevailing bank rate, from receipt of the last necessary document until payment, where settlement exceeds 30 days.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#7.4"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "2%",
+      "two percent",
+      "bank rate"
+    ]
+  },
+  {
+    "id": "Q023",
+    "question": "What is the free look period under the Aarogya Suraksha policy?",
+    "reference_answer": "15 days from receipt of the policy document, extended to 30 days for policies purchased through distance marketing.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#8.1"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "15 days",
+      "fifteen",
+      "30 days"
+    ]
+  },
+  {
+    "id": "Q024",
+    "question": "What is the grace period for renewal under the Aarogya Suraksha policy?",
+    "reference_answer": "30 days from the policy expiry date, during which continuity benefits are preserved but no cover applies.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#8.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "30 days",
+      "thirty"
+    ]
+  },
+  {
+    "id": "Q025",
+    "question": "How does the cumulative bonus work under the Aarogya Suraksha policy?",
+    "reference_answer": "The Sum Insured increases by 10% of the base Sum Insured for each claim-free year, capped at 50%, and reduces by 10% at the next renewal following a claim.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#8.3"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "10%",
+      "50%",
+      "ten percent"
+    ]
+  },
+  {
+    "id": "Q026",
+    "question": "How far in advance must I apply to port the Aarogya Suraksha policy?",
+    "reference_answer": "At least 45 days, and not earlier than 60 days, before the renewal date.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#8.4"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "45 days",
+      "60 days",
+      "forty-five"
+    ]
+  },
+  {
+    "id": "Q027",
+    "question": "What is the moratorium period under the Aarogya Suraksha policy?",
+    "reference_answer": "60 continuous months, after which claims cannot be contested for non-disclosure or misrepresentation except on grounds of established fraud.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#8.5"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "60 months",
+      "sixty"
+    ]
+  },
+  {
+    "id": "Q028",
+    "question": "How many in-patient beds must a hospital have to qualify under the Nirogam Plus policy?",
+    "reference_answer": "At least 10 beds in towns with a population below ten lakhs, and 15 beds elsewhere.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#2.2"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "10",
+      "15",
+      "ten",
+      "fifteen"
+    ]
+  },
+  {
+    "id": "Q029",
+    "question": "What is the pre and post hospitalisation cover under the Nirogam Plus policy?",
+    "reference_answer": "30 days of pre-hospitalisation expenses and 60 days of post-hospitalisation expenses.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#3.2"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "30",
+      "60",
+      "thirty",
+      "sixty"
+    ]
+  },
+  {
+    "id": "Q030",
+    "question": "Does the Nirogam Plus policy cover domiciliary hospitalisation?",
+    "reference_answer": "Yes, where the patient cannot be moved to hospital or no bed was available, provided treatment continues for at least 3 consecutive days.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#3.3"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "yes",
+      "3 days",
+      "three"
+    ]
+  },
+  {
+    "id": "Q031",
+    "question": "Is a health check-up included in the Nirogam Plus policy?",
+    "reference_answer": "Yes, after every 2 continuous claim-free policy years, up to 1% of the Sum Insured capped at Rs. 7,500.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#3.4"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "yes",
+      "7,500",
+      "7500",
+      "two"
+    ]
+  },
+  {
+    "id": "Q032",
+    "question": "What is the pre-existing disease waiting period under the Nirogam Plus policy?",
+    "reference_answer": "24 months of continuous coverage from inception of the first policy with the Insurer.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#4.2"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "24 months",
+      "twenty-four"
+    ]
+  },
+  {
+    "id": "Q033",
+    "question": "What are the maternity limits under the Nirogam Plus policy?",
+    "reference_answer": "Rs. 50,000 for a normal delivery and Rs. 75,000 for a caesarean, after a 24-month waiting period and restricted to the first two living children.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#4.4"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "50,000",
+      "75,000",
+      "24 months"
+    ]
+  },
+  {
+    "id": "Q034",
+    "question": "What room category am I entitled to under the Nirogam Plus policy?",
+    "reference_answer": "A single private air-conditioned room; a higher category triggers proportionate reduction of the claim.",
+    "kind": "factual",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#5.1"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "single private",
+      "air-conditioned",
+      "proportion"
+    ]
+  },
+  {
+    "id": "Q035",
+    "question": "When does the 20% co-payment apply under the Nirogam Plus policy?",
+    "reference_answer": "When the Insured Person is treated in a Zone A city but paid Zone B premium.",
+    "kind": "procedural",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#5.2"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "20%",
+      "zone a",
+      "twenty percent"
+    ]
+  },
+  {
+    "id": "Q036",
+    "question": "Is dental treatment covered under the Nirogam Plus policy?",
+    "reference_answer": "No, except where necessitated by an accident and requiring hospitalisation. Routine dental work and orthodontics are never payable.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#6.1"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "no",
+      "excluded",
+      "accident"
+    ]
+  },
+  {
+    "id": "Q037",
+    "question": "Is bariatric surgery covered under the Nirogam Plus policy?",
+    "reference_answer": "Yes, where BMI exceeds 40, or exceeds 35 with an associated co-morbidity, and the surgery is advised in writing by a medical practitioner.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#6.2"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "40",
+      "35",
+      "yes",
+      "bmi"
+    ]
+  },
+  {
+    "id": "Q038",
+    "question": "How far in advance must a planned admission be intimated under the Nirogam Plus policy?",
+    "reference_answer": "At least 72 hours before planned admission, and within 24 hours of an emergency admission.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#7.1"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "72 hours",
+      "seventy-two",
+      "24 hours"
+    ]
+  },
+  {
+    "id": "Q039",
+    "question": "What is the claim document submission deadline under the Nirogam Plus policy?",
+    "reference_answer": "15 days from discharge, with delay condonable if shown to be beyond the insured's control.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#7.2"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "15 days",
+      "fifteen"
+    ]
+  },
+  {
+    "id": "Q040",
+    "question": "What is the grace period under the Nirogam Plus policy?",
+    "reference_answer": "15 days for annual premium payment and 30 days where premium is paid in instalments.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#7.4"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "15 days",
+      "30 days",
+      "fifteen"
+    ]
+  },
+  {
+    "id": "Q041",
+    "question": "What no claim discount does the Nirogam Plus policy give?",
+    "reference_answer": "5% off renewal premium per claim-free year, up to a maximum of 25%, forfeited entirely when a claim is made.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-NIROGAM#7.5"
+    ],
+    "gold_policies": [
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "5%",
+      "25%",
+      "five percent"
+    ]
+  },
+  {
+    "id": "Q042",
+    "question": "What is Insured Declared Value under the DriveShield motor policy?",
+    "reference_answer": "The manufacturer's listed selling price adjusted by the depreciation schedule; it is the sum insured for own damage and the maximum payable on total loss.",
+    "kind": "factual",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#1.2"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "idv",
+      "listed selling price",
+      "total loss"
+    ]
+  },
+  {
+    "id": "Q043",
+    "question": "When is a vehicle a constructive total loss under the DriveShield policy?",
+    "reference_answer": "When the cost of retrieval and repair exceeds 75% of the Insured Declared Value.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#1.3"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "75%",
+      "seventy-five"
+    ]
+  },
+  {
+    "id": "Q044",
+    "question": "Does the DriveShield motor policy cover flood damage?",
+    "reference_answer": "Yes. Flood, inundation, storm, cyclone and hailstorm are listed perils under Section I own damage cover.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#2.1"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "yes",
+      "flood",
+      "covered"
+    ]
+  },
+  {
+    "id": "Q045",
+    "question": "What towing charges does the DriveShield policy pay after an accident?",
+    "reference_answer": "Up to Rs. 1,500 per accident for removal of the vehicle to the nearest repairer.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#2.2"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "1,500",
+      "1500"
+    ]
+  },
+  {
+    "id": "Q046",
+    "question": "Are consumables like engine oil covered in a DriveShield own damage claim?",
+    "reference_answer": "No, not unless the Consumables Cover add-on has been opted for and appears in the policy schedule.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#2.3"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "no",
+      "add-on",
+      "not payable"
+    ]
+  },
+  {
+    "id": "Q047",
+    "question": "What is the third party death and bodily injury limit under the DriveShield policy?",
+    "reference_answer": "Unlimited. The Company's liability for third party death or bodily injury is not capped in amount.",
+    "kind": "factual",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#3.1"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "unlimited",
+      "no limit"
+    ]
+  },
+  {
+    "id": "Q048",
+    "question": "What is the third party property damage limit under the DriveShield policy?",
+    "reference_answer": "Rs. 7,50,000 per accident, unless a higher limit has been opted for and paid for.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#3.2"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "7,50,000",
+      "750000",
+      "7.5 lakh"
+    ]
+  },
+  {
+    "id": "Q049",
+    "question": "What is the compulsory personal accident cover for the owner-driver under the DriveShield policy?",
+    "reference_answer": "Rs. 15,00,000, subject to the owner-driver holding a valid and effective driving licence at the time of the accident.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#3.3"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "15,00,000",
+      "1500000",
+      "15 lakh"
+    ]
+  },
+  {
+    "id": "Q050",
+    "question": "How many claims can I make under the DriveShield zero depreciation add-on in a year?",
+    "reference_answer": "A maximum of 2 claims per policy year.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#4.1"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "2",
+      "two"
+    ]
+  },
+  {
+    "id": "Q051",
+    "question": "Does zero depreciation on the DriveShield policy cover tyres?",
+    "reference_answer": "No. Tyres, tubes and batteries continue to attract 50% depreciation even with zero depreciation cover.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#4.1"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "no",
+      "50%",
+      "tyres"
+    ]
+  },
+  {
+    "id": "Q052",
+    "question": "Does the DriveShield engine protect add-on cover water ingress?",
+    "reference_answer": "Yes, but not where the insured attempted to start the vehicle after it was submerged.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#4.2"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "yes",
+      "water ingress",
+      "not",
+      "submerged"
+    ]
+  },
+  {
+    "id": "Q053",
+    "question": "What is the vehicle age limit for the DriveShield return to invoice add-on?",
+    "reference_answer": "5 years. The add-on is available only for vehicles up to five years of age.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#4.3"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "5 years",
+      "five"
+    ]
+  },
+  {
+    "id": "Q054",
+    "question": "Does using roadside assistance affect the no claim bonus on the DriveShield policy?",
+    "reference_answer": "No. Availing roadside assistance does not affect the No Claim Bonus.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#4.4"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "no",
+      "not affect",
+      "ncb"
+    ]
+  },
+  {
+    "id": "Q055",
+    "question": "What depreciation applies to plastic parts in a DriveShield claim?",
+    "reference_answer": "50% depreciation applies to rubber, nylon and plastic parts, tyres, tubes, batteries and air bags.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#5.1"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "50%",
+      "fifty percent"
+    ]
+  },
+  {
+    "id": "Q056",
+    "question": "What depreciation applies to glass parts under the DriveShield policy?",
+    "reference_answer": "Nil. No depreciation is applied to parts made of glass.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#5.1"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "nil",
+      "no depreciation",
+      "zero"
+    ]
+  },
+  {
+    "id": "Q057",
+    "question": "What depreciation applies to metal parts on a three-and-a-half year old car under the DriveShield policy?",
+    "reference_answer": "25%. Vehicles exceeding three years but not exceeding four years attract 25% depreciation on metal parts.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#5.2"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "25%",
+      "twenty-five"
+    ]
+  },
+  {
+    "id": "Q058",
+    "question": "What is the compulsory deductible under the DriveShield policy?",
+    "reference_answer": "Rs. 1,000 for private cars up to 1500 cc and Rs. 2,000 above 1500 cc, in addition to any voluntary deductible.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#5.3"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "1,000",
+      "2,000",
+      "1500 cc"
+    ]
+  },
+  {
+    "id": "Q059",
+    "question": "Is mechanical breakdown covered under the DriveShield policy?",
+    "reference_answer": "No. Mechanical and electrical breakdown, failures and breakages are excluded.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#6.1"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "no",
+      "excluded",
+      "breakdown"
+    ]
+  },
+  {
+    "id": "Q060",
+    "question": "Will the DriveShield policy pay if the driver had no valid licence?",
+    "reference_answer": "No. Claims are not payable where the driver did not hold a valid and effective licence for that class of vehicle, or was disqualified.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#6.2"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "no",
+      "not payable",
+      "licence"
+    ]
+  },
+  {
+    "id": "Q061",
+    "question": "Within how long must an accident be reported under the DriveShield policy?",
+    "reference_answer": "Immediately, and in any event within 48 hours of the occurrence; theft also requires a police First Information Report.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#7.1"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "48 hours",
+      "forty-eight"
+    ]
+  },
+  {
+    "id": "Q062",
+    "question": "What is the maximum no claim bonus under the DriveShield motor policy?",
+    "reference_answer": "50%, reached after five consecutive claim-free years.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#7.2"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "50%",
+      "fifty percent",
+      "five"
+    ]
+  },
+  {
+    "id": "Q063",
+    "question": "What no claim bonus applies after two consecutive claim-free years on the DriveShield policy?",
+    "reference_answer": "25% on the own damage premium.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#7.2"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "25%",
+      "twenty-five"
+    ]
+  },
+  {
+    "id": "Q064",
+    "question": "Does the no claim bonus transfer when I sell my car insured under the DriveShield policy?",
+    "reference_answer": "No. The no claim bonus stays with the previous owner; policy transfer itself requires the Company's written consent within 14 days.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#7.3"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "no",
+      "14 days",
+      "previous owner"
+    ]
+  },
+  {
+    "id": "Q065",
+    "question": "Does the Suraksha Kavach term plan have a maturity value?",
+    "reference_answer": "No. It is a pure risk plan with no surrender value, no paid-up value and no maturity value.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#1.1"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "no",
+      "no maturity",
+      "pure risk"
+    ]
+  },
+  {
+    "id": "Q066",
+    "question": "What is the maximum entry age for the Suraksha Kavach term plan?",
+    "reference_answer": "65 years as on last birthday, with a maximum maturity age of 85 years.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#1.2"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "65",
+      "sixty-five"
+    ]
+  },
+  {
+    "id": "Q067",
+    "question": "What is the minimum sum assured under the Suraksha Kavach term plan?",
+    "reference_answer": "Rs. 25,00,000.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#1.2"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "25,00,000",
+      "2500000",
+      "25 lakh"
+    ]
+  },
+  {
+    "id": "Q068",
+    "question": "How is the death benefit calculated under the Suraksha Kavach term plan?",
+    "reference_answer": "The highest of 10 times the annualised premium, 105% of all premiums paid to date of death, or the absolute sum assured.",
+    "kind": "factual",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#2.1"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "10 times",
+      "105%",
+      "sum assured"
+    ]
+  },
+  {
+    "id": "Q069",
+    "question": "What does the terminal illness benefit pay under the Suraksha Kavach term plan?",
+    "reference_answer": "50% of the sum assured accelerated, capped at Rs. 1,00,00,000, where life expectancy is certified at six months or less by two independent medical practitioners.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#2.2"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "50%",
+      "1,00,00,000",
+      "6 months"
+    ]
+  },
+  {
+    "id": "Q070",
+    "question": "What payout options are available to the nominee under the Suraksha Kavach term plan?",
+    "reference_answer": "A lump sum, a level monthly income over 60, 120 or 180 months, or a combination with a lump sum of at least 20% and the balance as monthly income.",
+    "kind": "factual",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#2.3"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "lump sum",
+      "monthly income",
+      "60",
+      "120",
+      "180"
+    ]
+  },
+  {
+    "id": "Q071",
+    "question": "Within what period must death occur for the accidental death rider to pay under the Suraksha Kavach plan?",
+    "reference_answer": "Within 180 days of the accident.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#3.1"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "180 days",
+      "one hundred and eighty"
+    ]
+  },
+  {
+    "id": "Q072",
+    "question": "What is the survival period under the Suraksha Kavach critical illness rider?",
+    "reference_answer": "30 days from the date of diagnosis, with a 90-day waiting period from rider commencement.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#3.2"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "30 days",
+      "90 days",
+      "thirty"
+    ]
+  },
+  {
+    "id": "Q073",
+    "question": "What does the Suraksha Kavach term plan pay if death occurs within 12 months of commencement in excluded circumstances under clause 4.1?",
+    "reference_answer": "At least 80% of total premiums paid up to the date of death, or the surrender value then available, whichever is higher.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#4.1"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "80%",
+      "eighty percent",
+      "premiums paid"
+    ]
+  },
+  {
+    "id": "Q074",
+    "question": "Does the Suraksha Kavach accidental death rider cover private flying?",
+    "reference_answer": "No. Aviation other than travel as a fare-paying passenger on a licensed commercial airline is excluded from rider benefits.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#4.2"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "no",
+      "excluded",
+      "fare-paying"
+    ]
+  },
+  {
+    "id": "Q075",
+    "question": "What is the grace period under the Suraksha Kavach term plan?",
+    "reference_answer": "30 days for yearly, half-yearly and quarterly modes, and 15 days for monthly mode.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#5.1"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "30 days",
+      "15 days",
+      "thirty"
+    ]
+  },
+  {
+    "id": "Q076",
+    "question": "How long do I have to revive a lapsed Suraksha Kavach policy?",
+    "reference_answer": "5 years from the date of the first unpaid premium, subject to arrears with interest and satisfactory evidence of insurability.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#5.3"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "5 years",
+      "five"
+    ]
+  },
+  {
+    "id": "Q077",
+    "question": "What is the free look period under the Suraksha Kavach term plan?",
+    "reference_answer": "30 days from receipt of the policy document.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#5.4"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "30 days",
+      "thirty"
+    ]
+  },
+  {
+    "id": "Q078",
+    "question": "Within how many days must a death claim be intimated under the Suraksha Kavach plan?",
+    "reference_answer": "Within 90 days of the date of death.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#6.1"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "90 days",
+      "ninety"
+    ]
+  },
+  {
+    "id": "Q079",
+    "question": "How quickly is a death claim settled under the Suraksha Kavach plan?",
+    "reference_answer": "Within 15 days of receiving all documents where no investigation is needed; where investigation is required it completes within 90 days and settlement follows within 30 days.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#6.2"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "15 days",
+      "90 days",
+      "30 days"
+    ]
+  },
+  {
+    "id": "Q080",
+    "question": "After how long can the Suraksha Kavach policy no longer be questioned for non-disclosure?",
+    "reference_answer": "3 years from issuance, commencement of risk, revival or the rider date, whichever is later, under Section 45 of the Insurance Act.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#6.3"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "3 years",
+      "three",
+      "section 45"
+    ]
+  },
+  {
+    "id": "Q081",
+    "question": "Is contents cover under the Griha Raksha policy on a reinstatement or indemnity basis?",
+    "reference_answer": "Indemnity basis with depreciation applied, unless the reinstatement value option has been opted for. Building cover is on reinstatement value.",
+    "kind": "factual",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#1.2"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "indemnity",
+      "depreciation",
+      "reinstatement"
+    ]
+  },
+  {
+    "id": "Q082",
+    "question": "Does the Griha Raksha policy cover damage from bursting water pipes?",
+    "reference_answer": "Yes. Bursting or overflowing of water tanks, apparatus and pipes is a covered peril under Section A building cover.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#2.1"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "yes",
+      "covered",
+      "bursting"
+    ]
+  },
+  {
+    "id": "Q083",
+    "question": "Are architect fees covered under the Griha Raksha policy?",
+    "reference_answer": "Yes, up to 3% of the claim amount where necessarily incurred in reinstating the building after an admitted claim.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#2.2"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "3%",
+      "three percent"
+    ]
+  },
+  {
+    "id": "Q084",
+    "question": "Does the Griha Raksha policy pay for alternative accommodation?",
+    "reference_answer": "Yes, for up to 12 months and not exceeding 10% of the building sum insured, where the home is rendered uninhabitable after an admitted claim.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#2.4"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "yes",
+      "12 months",
+      "10%"
+    ]
+  },
+  {
+    "id": "Q085",
+    "question": "What is the jewellery sub-limit under the Griha Raksha policy?",
+    "reference_answer": "25% of the contents sum insured or Rs. 2,00,000, whichever is lower, unless items are specifically declared with valuation certificates.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#3.2"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "25%",
+      "2,00,000",
+      "200000"
+    ]
+  },
+  {
+    "id": "Q086",
+    "question": "Does the Griha Raksha burglary section cover theft without forced entry?",
+    "reference_answer": "No. Cover requires actual forcible and violent entry into or exit from the insured premises.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#4.1"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "no",
+      "forcible",
+      "violent"
+    ]
+  },
+  {
+    "id": "Q087",
+    "question": "What happens to burglary cover if my home is empty for a long period under the Griha Raksha policy?",
+    "reference_answer": "Cover is suspended once the premises are unoccupied for more than 30 continuous days, unless the Company has agreed in writing to continue cover.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#4.2"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "30 days",
+      "thirty",
+      "suspended"
+    ]
+  },
+  {
+    "id": "Q088",
+    "question": "Is my laptop covered abroad under the Griha Raksha policy?",
+    "reference_answer": "Yes, worldwide for a maximum of 60 days in any policy year whilst travelling, and anywhere in India otherwise.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#5.1"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "yes",
+      "60 days",
+      "worldwide"
+    ]
+  },
+  {
+    "id": "Q089",
+    "question": "What depreciation applies to a stolen laptop under the Griha Raksha policy?",
+    "reference_answer": "10% per completed year from purchase, capped at 50%.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#5.2"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "10%",
+      "50%",
+      "ten percent"
+    ]
+  },
+  {
+    "id": "Q090",
+    "question": "Is a laptop stolen from a car covered under the Griha Raksha policy?",
+    "reference_answer": "Only if it was in a locked boot and there is evidence of forcible entry; theft from an unattended vehicle is otherwise not covered.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#5.2"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "locked boot",
+      "forcible",
+      "not covered"
+    ]
+  },
+  {
+    "id": "Q091",
+    "question": "Is cash covered under the Griha Raksha policy?",
+    "reference_answer": "No. Loss of cash, bank notes, securities and documents is excluded unless specifically covered.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#6.1"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "no",
+      "excluded",
+      "unless specifically"
+    ]
+  },
+  {
+    "id": "Q092",
+    "question": "What happens if my Griha Raksha sum insured is too low at the time of loss?",
+    "reference_answer": "The condition of average applies: the insured bears a rateable proportion of the loss, separately for each section and item.",
+    "kind": "procedural",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#6.2"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "average",
+      "rateable",
+      "proportion"
+    ]
+  },
+  {
+    "id": "Q093",
+    "question": "Within how long must I report a claim under the Griha Raksha policy?",
+    "reference_answer": "Within 7 days of the event, and burglary, theft or malicious damage must also be reported to the police within 24 hours.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "HOM-GRIHARAKSHA#6.3"
+    ],
+    "gold_policies": [
+      "HOM-GRIHARAKSHA"
+    ],
+    "answer_keys": [
+      "7 days",
+      "seven",
+      "24 hours"
+    ]
+  },
+  {
+    "id": "Q094",
+    "question": "What is the maximum single trip duration under the Yatra Safe travel policy?",
+    "reference_answer": "180 days.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#1.2"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "180 days",
+      "one hundred and eighty"
+    ]
+  },
+  {
+    "id": "Q095",
+    "question": "What is the deductible on emergency medical expenses under the Yatra Safe policy?",
+    "reference_answer": "USD 100 per claim.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#2.1"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "usd 100",
+      "100"
+    ]
+  },
+  {
+    "id": "Q096",
+    "question": "What is the medical evacuation limit under the Yatra Safe policy?",
+    "reference_answer": "USD 50,000 for emergency evacuation or repatriation, and USD 10,000 for repatriation of mortal remains.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#2.2"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "50,000",
+      "50000",
+      "10,000"
+    ]
+  },
+  {
+    "id": "Q097",
+    "question": "Does the Yatra Safe policy cover a pre-existing condition emergency abroad?",
+    "reference_answer": "Yes, up to USD 10,000, but only for treatment necessary to stabilise the insured for return to India.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#2.3"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "usd 10,000",
+      "10,000",
+      "stabilise",
+      "yes"
+    ]
+  },
+  {
+    "id": "Q098",
+    "question": "What is the trip cancellation limit under the Yatra Safe policy?",
+    "reference_answer": "USD 1,500 for irrecoverable prepaid travel and accommodation costs.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#3.1"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "1,500",
+      "1500",
+      "usd 1,500"
+    ]
+  },
+  {
+    "id": "Q099",
+    "question": "How long must a flight be delayed before the Yatra Safe policy pays?",
+    "reference_answer": "More than 6 hours, with USD 50 payable per full six-hour block up to USD 300.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#3.2"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "6 hours",
+      "six hours",
+      "usd 50"
+    ]
+  },
+  {
+    "id": "Q100",
+    "question": "What is the checked-in baggage loss limit under the Yatra Safe policy?",
+    "reference_answer": "Up to USD 1,000 overall, with sub-limits of USD 500 per bag and USD 100 per item, less any carrier compensation.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#3.3"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "1,000",
+      "500",
+      "100"
+    ]
+  },
+  {
+    "id": "Q101",
+    "question": "How long must baggage be delayed to claim under the Yatra Safe policy?",
+    "reference_answer": "More than 12 hours after arrival, reimbursing emergency purchases up to USD 200 against original receipts and carrier confirmation.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#3.4"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "12 hours",
+      "twelve",
+      "usd 200"
+    ]
+  },
+  {
+    "id": "Q102",
+    "question": "What does the Yatra Safe policy pay if I lose my passport abroad?",
+    "reference_answer": "Up to USD 300 for obtaining a duplicate or fresh passport, provided the loss was reported to local police within 24 hours of discovery.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#3.5"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "usd 300",
+      "300",
+      "24 hours"
+    ]
+  },
+  {
+    "id": "Q103",
+    "question": "What is the personal liability limit under the Yatra Safe policy?",
+    "reference_answer": "USD 1,00,000, excluding liability from motor vehicles, aircraft, watercraft or contractual undertakings.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#4.1"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "1,00,000",
+      "100000",
+      "100,000"
+    ]
+  },
+  {
+    "id": "Q104",
+    "question": "Does the Yatra Safe policy cover travel undertaken for medical treatment abroad?",
+    "reference_answer": "No. Travel for the purpose of obtaining medical treatment is excluded.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#5.1"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "no",
+      "excluded"
+    ]
+  },
+  {
+    "id": "Q105",
+    "question": "What is the claim notification deadline under the Yatra Safe travel policy?",
+    "reference_answer": "Within 7 days of the event to the 24-hour helpline, with written documents within 30 days of return to India.",
+    "kind": "numeric",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#5.2"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "7 days",
+      "30 days",
+      "seven"
+    ]
+  },
+  {
+    "id": "Q106",
+    "question": "Can I extend the Yatra Safe travel policy while abroad?",
+    "reference_answer": "Yes, once, for up to 180 additional days, provided the request is made before expiry, no claim is made or pending, and additional premium is paid.",
+    "kind": "boolean",
+    "answerable": true,
+    "gold_clauses": [
+      "TRV-YATRASAFE#5.3"
+    ],
+    "gold_policies": [
+      "TRV-YATRASAFE"
+    ],
+    "answer_keys": [
+      "yes",
+      "180",
+      "once"
+    ]
+  },
+  {
+    "id": "Q107",
+    "question": "Which has the shorter pre-existing disease waiting period, Aarogya Suraksha or Nirogam Plus?",
+    "reference_answer": "Nirogam Plus, at 24 months of continuous coverage, compared with 36 months under Aarogya Suraksha.",
+    "kind": "comparative",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#4.2",
+      "HLT-NIROGAM#4.2"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA",
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "nirogam",
+      "24",
+      "36"
+    ]
+  },
+  {
+    "id": "Q108",
+    "question": "Compare the grace periods of the Aarogya Suraksha and Nirogam Plus health policies.",
+    "reference_answer": "Aarogya Suraksha allows 30 days. Nirogam Plus allows 15 days for annual premium and 30 days where premium is paid in instalments.",
+    "kind": "comparative",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#8.2",
+      "HLT-NIROGAM#7.4"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA",
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "30",
+      "15"
+    ]
+  },
+  {
+    "id": "Q109",
+    "question": "Which health policy gives a better ambulance limit, Aarogya Suraksha or Nirogam Plus?",
+    "reference_answer": "Aarogya Suraksha, at Rs. 5,000 per hospitalisation event, against Rs. 3,000 per event under Nirogam Plus.",
+    "kind": "comparative",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#3.4",
+      "HLT-NIROGAM#3.5"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA",
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "aarogya",
+      "5,000",
+      "3,000"
+    ]
+  },
+  {
+    "id": "Q110",
+    "question": "How do the maternity waiting periods compare between Aarogya Suraksha and Nirogam Plus?",
+    "reference_answer": "Aarogya Suraksha requires 36 months of continuous coverage; Nirogam Plus requires 24 months and caps the benefit at Rs. 50,000 for normal delivery and Rs. 75,000 for caesarean.",
+    "kind": "comparative",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#4.4",
+      "HLT-NIROGAM#4.4"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA",
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "36",
+      "24"
+    ]
+  },
+  {
+    "id": "Q111",
+    "question": "Compare the free look periods across the Aarogya Suraksha health policy and the Suraksha Kavach term plan.",
+    "reference_answer": "Aarogya Suraksha gives 15 days, extended to 30 days for distance marketing. Suraksha Kavach gives 30 days.",
+    "kind": "comparative",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#8.1",
+      "LIF-SURAKSHAKAVACH#5.4"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA",
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "15",
+      "30"
+    ]
+  },
+  {
+    "id": "Q112",
+    "question": "I was hospitalised after a road accident and claimed under Aarogya Suraksha. Which waiting period applies?",
+    "reference_answer": "None. The 30-day initial waiting period expressly excludes claims arising out of an accident, and accident-related joint replacement is excluded from the specified disease waiting period.",
+    "kind": "multi_hop",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#4.1",
+      "HLT-AAROGYA#4.3"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA"
+    ],
+    "answer_keys": [
+      "no waiting",
+      "none",
+      "accident",
+      "does not apply"
+    ]
+  },
+  {
+    "id": "Q113",
+    "question": "My car is four years old and I have zero depreciation cover under DriveShield. What depreciation applies to a replaced plastic bumper?",
+    "reference_answer": "None on the bumper. Zero depreciation removes depreciation on replaced parts except tyres, tubes and batteries, so the 50% plastic-parts rate does not apply.",
+    "kind": "multi_hop",
+    "answerable": true,
+    "gold_clauses": [
+      "MOT-DRIVESHIELD#4.1",
+      "MOT-DRIVESHIELD#5.1"
+    ],
+    "gold_policies": [
+      "MOT-DRIVESHIELD"
+    ],
+    "answer_keys": [
+      "nil",
+      "no depreciation",
+      "zero",
+      "except tyres"
+    ]
+  },
+  {
+    "id": "Q114",
+    "question": "What is the surrender value of the Suraksha Kavach term plan in year 10?",
+    "reference_answer": "There is none. The plan is a pure risk plan that acquires no surrender value, no paid-up value and no maturity value.",
+    "kind": "contradicted_premise",
+    "answerable": true,
+    "gold_clauses": [
+      "LIF-SURAKSHAKAVACH#1.1"
+    ],
+    "gold_policies": [
+      "LIF-SURAKSHAKAVACH"
+    ],
+    "answer_keys": [
+      "no surrender value"
+    ]
+  },
+  {
+    "id": "Q115",
+    "question": "Which of the two health policies restricts room rent by a percentage of sum insured rather than a room category?",
+    "reference_answer": "Aarogya Suraksha, which caps room rent at 1% of sum insured per day and 2% for ICU. Nirogam Plus instead entitles the insured to a single private air-conditioned room.",
+    "kind": "comparative",
+    "answerable": true,
+    "gold_clauses": [
+      "HLT-AAROGYA#5.1",
+      "HLT-NIROGAM#5.1"
+    ],
+    "gold_policies": [
+      "HLT-AAROGYA",
+      "HLT-NIROGAM"
+    ],
+    "answer_keys": [
+      "aarogya",
+      "1%",
+      "2%"
+    ]
+  },
+  {
+    "id": "Q116",
+    "question": "What is the waiting period for dental implants under the DriveShield motor policy?",
+    "reference_answer": "Not covered by the indexed documents. The DriveShield policy is a motor policy and contains no dental provisions.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "cross-domain confusion"
+  },
+  {
+    "id": "Q117",
+    "question": "What is the annual premium amount for the Aarogya Suraksha policy for a 40-year-old?",
+    "reference_answer": "Not stated in the indexed documents. Premium amounts appear in the policy schedule, not in the policy wording.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "schedule-only data"
+  },
+  {
+    "id": "Q118",
+    "question": "Does the Nirogam Plus policy cover IVF and fertility treatment?",
+    "reference_answer": "Not addressed in the indexed documents. The Nirogam Plus wording contains no provision on infertility or assisted reproduction.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "topic absent"
+  },
+  {
+    "id": "Q119",
+    "question": "What is the cashless hospital network size for the Yatra Safe travel policy in Europe?",
+    "reference_answer": "Not stated in the indexed documents. The Yatra Safe wording refers to an assistance helpline but gives no network size.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "topic absent"
+  },
+  {
+    "id": "Q120",
+    "question": "What is the no claim bonus under the Griha Raksha householder's policy?",
+    "reference_answer": "Not stated in the indexed documents. The Griha Raksha wording contains no no-claim-bonus provision.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "concept exists in another policy"
+  },
+  {
+    "id": "Q121",
+    "question": "How much does Meridian General charge for the zero depreciation add-on?",
+    "reference_answer": "Not stated in the indexed documents. The wording describes the add-on's scope but not its price.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "pricing absent"
+  },
+  {
+    "id": "Q122",
+    "question": "What is the claim settlement ratio of Sentinel Health Assurance Limited?",
+    "reference_answer": "Not stated in the indexed documents. Claim settlement ratios are regulatory disclosures, not policy-wording content.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "out of corpus"
+  },
+  {
+    "id": "Q123",
+    "question": "Does the Aarogya Suraksha policy cover gender reassignment surgery?",
+    "reference_answer": "Not addressed in the indexed documents. The Aarogya Suraksha wording contains no provision on this treatment.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "topic absent"
+  },
+  {
+    "id": "Q124",
+    "question": "What is the sum insured on my Aarogya Suraksha policy?",
+    "reference_answer": "Not stated in the indexed documents. The sum insured is an individual figure recorded in the policy schedule, not in the wording.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "schedule-only data"
+  },
+  {
+    "id": "Q125",
+    "question": "Which hospitals near Hyderabad are in the Nirogam Plus cashless network?",
+    "reference_answer": "Not stated in the indexed documents. The wording refers to a network list published separately by the insurer.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "external list"
+  },
+  {
+    "id": "Q126",
+    "question": "What is the grace period under the Yatra Safe overseas travel policy?",
+    "reference_answer": "Not stated in the indexed documents. The Yatra Safe wording contains no grace period provision.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "concept exists in another policy"
+  },
+  {
+    "id": "Q127",
+    "question": "What cumulative bonus does the Nirogam Plus policy give for a claim-free year?",
+    "reference_answer": "Not stated in the indexed documents. Nirogam Plus offers a premium discount rather than a cumulative bonus, and no cumulative bonus clause exists in its wording.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "concept exists in another policy"
+  },
+  {
+    "id": "Q128",
+    "question": "What is the maternity benefit under the DriveShield motor policy?",
+    "reference_answer": "Not covered by the indexed documents. DriveShield is a motor policy and has no maternity provision.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "cross-domain confusion"
+  },
+  {
+    "id": "Q129",
+    "question": "How many riders can I attach to the Griha Raksha householder's policy?",
+    "reference_answer": "Not stated in the indexed documents. The Griha Raksha wording describes sections rather than riders and sets no rider limit.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "concept exists in another policy"
+  },
+  {
+    "id": "Q130",
+    "question": "What is the IRDAI registration number of Meridian General Insurance Company Limited?",
+    "reference_answer": "Not stated in the indexed documents. The wordings give product UINs, not the insurer's registration number.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "out of corpus"
+  },
+  {
+    "id": "Q131",
+    "question": "What GST rate applies to the premium on the Suraksha Kavach term plan?",
+    "reference_answer": "Not stated in the indexed documents. Tax treatment is not addressed in the policy wording.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "out of corpus"
+  },
+  {
+    "id": "Q132",
+    "question": "Does the Yatra Safe travel policy cover adventure sports like bungee jumping?",
+    "reference_answer": "Not resolved by the indexed documents. The Yatra Safe wording excludes professional sports but says nothing about recreational adventure activities such as this.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "partially related exclusion only"
+  },
+  {
+    "id": "Q133",
+    "question": "What is the deductible on the Griha Raksha burglary section?",
+    "reference_answer": "Not stated in the indexed documents. The Griha Raksha wording sets no deductible for burglary cover.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "concept exists in another policy"
+  },
+  {
+    "id": "Q134",
+    "question": "How long does Meridian General take to issue a renewal notice before expiry?",
+    "reference_answer": "Not stated in the indexed documents. No renewal-notice timeline appears in these wordings.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "topic absent"
+  },
+  {
+    "id": "Q135",
+    "question": "What is the free look period under the DriveShield motor policy?",
+    "reference_answer": "Not stated in the indexed documents. The DriveShield wording contains no free look provision.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "concept exists in another policy"
+  },
+  {
+    "id": "Q136",
+    "question": "What portability credit does the Yatra Safe travel policy give?",
+    "reference_answer": "Not stated in the indexed documents. Portability is a health-policy provision and does not appear in the Yatra Safe wording.",
+    "kind": "unanswerable",
+    "answerable": false,
+    "gold_clauses": [],
+    "gold_policies": [],
+    "answer_keys": [],
+    "unanswerable_reason": "concept exists in another policy"
+  }
+]
